@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Blipcoin
+Comment=Blipcoin P2P Cryptocurrency
+Comment[fr]=Blipcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Blipcoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/blipcoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/blipcoin;
+Categories=Office;

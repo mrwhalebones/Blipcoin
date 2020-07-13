@@ -1,0 +1,5 @@
+blipcoin-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin80.xpm usr/share/pixmaps
+debian/blipcoin-qt.desktop usr/share/applications
+debian/blipcoin-qt.protocol usr/share/kde4/services/

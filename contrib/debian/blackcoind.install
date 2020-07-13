@@ -1,0 +1,2 @@
+debian/bin/blipcoind usr/bin
+src/blipcoind usr/lib/blipcoin
