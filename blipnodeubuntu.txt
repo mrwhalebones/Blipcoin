@@ -1,0 +1,45 @@
+Use the following instructions to setup a node on Ubuntu Server 18.04.
+
+Install Ubuntu Server 18.04 on a VPS.
+
+Update your Ubuntu machine.
+
+sudo apt-get update
+sudo apt-get upgrade
+
+Install the required dependencies.
+
+sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libdb-dev libdb++-dev libminiupnpc-dev
+
+wget "https://github.com/mrwhalebones/Blipcoin/releases/download/1.0.0/blipcoin-daemon-linux.tar.gz" -O blipcoin-daemon-linux.tar.gz
+
+Extract the tar file.
+
+tar -xzvf blipcoin-daemon-linux.tar.gz
+
+Install the daemon.
+
+sudo mv blipcoind /usr/bin/
+
+Create the config file.
+
+mkdir $HOME/.blipcoin
+nano $HOME/.blipcoin/blipcoin.conf
+
+Paste the following lines in blipcoin.conf.
+
+rpcuser=blipnodefau
+rpcpassword=blipblop
+rpcallowip=127.0.0.1
+listen=1
+server=1
+txindex=1
+staking=0
+daemon=1
+addnode=144.202.72.181
+addnode=137.220.34.121
+
+Start your node with the following command.
+blipcoind
+
+blipcoind stop
