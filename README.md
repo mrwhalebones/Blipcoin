@@ -1,3 +1,5 @@
-Development moved to https://gitlab.com/blacknet-ninja
+Development moved from https://gitlab.com/blacknet-ninja
 
-https://blipcoin.org/ aims to continue on Blipcoin chain.
+https://blip.wtf/ aims to utilize the Blipcoin chain.
+
+
