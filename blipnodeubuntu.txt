@@ -40,6 +40,5 @@ addnode=144.202.72.181
 addnode=137.220.34.121
 
 Start your node with the following command.
-blipcoind
 
-blipcoind stop
+blipcoind
