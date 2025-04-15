@@ -5,3 +5,23 @@
 <META name="cons" content="Limited scalability, manual processing inefficiency compared to digital computation, potential lack of practical implementation.">
 <META name="applications" content="Educational tool for cryptographic studies, theoretical blockchain simulations, and sustainable computing research.">
 <META name="conclusion" content="While paper mining is impractical for mainstream crypto operations, it offers insights into decentralized computation and eco-conscious alternatives.">
+
+"So.... The system for this is pretty much the backbone of raw transactions themselves. A simple system like those nifty Bitcoin
+ATMs could probably be made to scan raw paper transactions. My thought, is to allow for a paper mempool upload and check server.
+Mind my terminology, I'm a bit sleepy, no coffee today yet.
+
+Anyways, here's what I see and I'm going to push this as a proposal with some basic code written out to help implement the End-User
+experience:
+
+A simple add-on to the Qt executable or the Bitcoind(daemon) executable, or even standalone using JSON-RPC functions and building
+upon the QR scanner already in the master source, to be able to scan transactions written out by hand. I'm going to try pulling 
+what photo/handwriting analyzing libraries and opensource projects I can into my research scope and see what I can put together
+that actually functions.
+
+Long run, we need some dude living on the streets, motivated enough, to be able to do the calculations, and be able to mine a
+block. We need someone living in the mountains, to be able to cruise into town, and keep their farm running by mining a block.
+This system wasn't built to be taken over by big banks, but to push them out of the picture and allow the general public to
+decide where and how to control their own "money". Money just being the physical example of the amount of work/time/ideas that 
+get put into furthering this world and humanity. 
+
+Alright, I think I got the idea out there a little better."
